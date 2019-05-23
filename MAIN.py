@@ -1,9 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
-
+import os
 
 URL_BASE = 'https://top-hashtags.com/instagram/'
 PAGE_NUM = 10
+MAX_NUM = 20
 
 
 class main():
@@ -14,7 +15,8 @@ class main():
         for i in range(PAGE_NUM):
             self.urls.append(self.url_base + str((i + 1) * 100 + 1) + '/')
 
-        print(self.urls)
+        self.cmds = []
+        # print(self.urls)
 
         # print(self.urls)
     def getOnePage(self,url):
@@ -31,10 +33,14 @@ class main():
             self.getOnePage(url)
 
 
-
+    def getImages(self):
+        for hashtag in self.hashtags:
+            os.popen('instagram-scraper --maximum %d --tag %s -t image -d tags'%(MAX_NUM,hashtag))
 
     def mainFunc(self):
         self.getAllHashtags()
+        print("finish gethashtags")
+        self.getImages()
 
 
 

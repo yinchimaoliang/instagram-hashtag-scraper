@@ -1,0 +1,10 @@
+2019-05-23 21:24:54,340 - instagram_scraper.app - WARNING - Retry after exception HTTPError('429 Client Error: - for url: https://www.instagram.com/p/BxzlcQPlFyg/?__a=1',) on https://www.instagram.com/p/BxzlcQPlFyg/?__a=1
+2019-05-23 21:25:29,640 - instagram_scraper.app - WARNING - Failed to get media details for Bxzn4slHJP8
+rror: - for url: https://www.instagram.com/p/Bxzh2vogxUN/?__a=1',) on https://www.instagram.com/p/Bxzh2vogxUN/?__a=1
+2019-05-23 21:24:56,612 - instagram_scraper.app - WARNING - Retry after exception HTTPError('429 Client Error: - for url: https://www.instagram.com/p/BxzmBSCAk1n/?__a=1',) on https://www.instagram.com/p/BxzmBSCAk1n/?__a=1
+2019-05-23 21:25:19,006 - instagram_scraper.app - WARNING - Retry after exception HTTPError('429 Client Error: - for url: https://www.instagram.com/p/Bxzhi9zgsyy/?__a=1',) on https://www.instagram.com/p/Bxzhi9zgsyy/?__a=1
+2019-05-23 21:24:52,412 - instagram_scraper.app - WARNING - Retry after exception HTTPError('429 Client Error: - for url: https://www.instagram.com/p/Bxznsc5FAVy/?__a=1',) on https://www.instagram.com/p/Bxznsc5FAVy/?__a=1
+2019-05-23 21:25:29,633 - instagram_scraper.app - WARNING - Failed to get media details for BxznqzmHawG
+2019-05-23 21:25:24,980 - instagram_scraper.app - WARNING - Failed to get media details for BxzngLQoqCZ
+2019-05-23 21:25:32,440 - instagram_scraper.app - WARNING - Failed to get media details for BxznrIHhio2
+2019-05-23 21:25:15,128 - instagram_scraper.app - WARNING - Failed to get media details for Bxznj8rCstA
